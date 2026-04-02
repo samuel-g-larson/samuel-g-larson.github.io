@@ -8,20 +8,35 @@ tags: ["meta"]
 
 Every blog starts somewhere. This is mine.
 
-I've been meaning to put a writing habit somewhere public for a while. The mental overhead of picking a platform, getting the design right, and deciding what to write has been the classic excuse for not starting. So this is me removing that excuse.
+I've been meaning to put a writing habit somewhere public for a while. The mental overhead of picking a platform, getting the design right, and deciding what to write has been the classic excuse for not starting. 
+
+## About Me
+
+I'm Sam Larson. I live in Minnesota with my wife, 2 kids and our Newfoundland Minnie.
+
+
+Some other resume type info:
+* Education 
+    * Undergrad in CompE from the University of Minnesota
+    * MBA from the University of Minnesota
+*  Career
+    * I've worked in the IT Service industry for over 20 years
+    * That time is split pretty evenly between technical and leadership roles
+    * I spent over 15 years in Operational roles but the last 5+ have been focused on product and strategy
+    * I'm currently a Principal Technologist at Expedient
+        * I work on our "Powered by Nutanix" line of cloud services
+        * I split my time between engineers, product management and alliance relationship    
 
 ## What this is
 
-*Sam's Tech Notes* is where I'll work through ideas in public — long-form explainers on technical topics I find myself explaining repeatedly, shorter takes when something interesting happens in the industry, and occasional notes on products or tools worth paying attention to.
+*Sam's Tech Notes* is a place for me to write about things I'm working on or learning about. That might include longer technical explainers, shorter takes when something interesting happens in the industry, and occasional notes on products or tools worth paying attention to.
 
-I work in tech. Most of what I write will assume a technical audience, but I'll try to make the explainer pieces accessible to anyone who's curious.
+The content here will be fairly technical but I'll try to make it accessible where possible. 
 
-## What this isn't
-
-It's not a tutorial site. It's not a newsletter (though there's an [RSS feed](/index.xml) if you're into that). It's not a portfolio, though some of what I write will reflect the kind of work I care about.
+I also occaisionally post Expedient-specifc content through the [Expedient Blog] (https://expedient.com/knowledgebase/blog/)
 
 ## How to follow along
 
-The simplest way: [RSS](/index.xml). Old-school, reliable, no algorithm.
+Bookmark, or: [RSS](/index.xml). 
 
-More to come soon.
+More to come.
