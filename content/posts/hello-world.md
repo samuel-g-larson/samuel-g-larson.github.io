@@ -33,7 +33,7 @@ Some other resume type info:
 
 The content here will be fairly technical but I'll try to make it accessible where possible. 
 
-I also occaisionally post Expedient-specifc content through the [Expedient Blog] (https://expedient.com/knowledgebase/blog/)
+I also occasionally post Expedient-specific content through the [Expedient Blog](https://expedient.com/knowledgebase/blog/)
 
 ## How to follow along
 
