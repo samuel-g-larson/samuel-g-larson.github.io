@@ -1,0 +1,13 @@
+{
+  "name": "sams-tech-notes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx @tinacms/cli@latest dev -c \"hugo server -D\"",
+    "build": "npx @tinacms/cli@latest build && hugo --minify"
+  },
+  "dependencies": {
+    "tinacms": "latest",
+    "@tinacms/cli": "latest"
+  }
+}

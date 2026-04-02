@@ -1,0 +1,19 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo module cache
+/go.sum
+/go.work.sum
+
+# Tina CMS generated files
+tina/__generated__/
+static/admin/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

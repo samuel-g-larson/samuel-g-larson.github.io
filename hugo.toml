@@ -1,0 +1,73 @@
+baseURL = "https://samuel-g-larson.github.io/"
+title = "Sam's Tech Notes"
+theme = "PaperMod"
+languageCode = "en-us"
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  author = "Sam Larson"
+  description = "Technical thought leadership, long-form explainers, opinions, and product notes."
+  defaultTheme = "dark"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+
+  [params.homeInfoParams]
+    Title = "Sam's Tech Notes"
+    Content = "Technical thought leadership — long-form explainers, opinions, and the occasional product deep-dive."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/samuel-g-larson"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "dracula"
