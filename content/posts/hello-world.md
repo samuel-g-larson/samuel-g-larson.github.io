@@ -8,7 +8,7 @@ tags: ["meta"]
 
 Every blog starts somewhere. This is mine.
 
-I've been meaning to put a writing habit somewhere public for a while. The mental overhead of picking a platform, getting the design right, and deciding what to write has been the classic excuse for not starting. 
+I've been meaning to write more about technical topics. I was hung up on picking a platform, getting the design right, etc. and it was turning into an excuse, so finally I just asked Claude, and came up with this solution. 
 
 ## About Me
 
