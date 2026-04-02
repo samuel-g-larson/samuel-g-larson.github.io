@@ -1,7 +1,7 @@
 ---
 title: "Nutanix Storage Calculator"
 date: 2026-04-02T16:46:48-05:00
-draft: true
+draft: false
 description: ""
 tags: []
 cover:
