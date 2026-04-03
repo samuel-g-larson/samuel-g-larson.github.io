@@ -2,27 +2,28 @@
 title: "Nutanix Storage Calculator"
 date: 2026-04-02T16:46:48-05:00
 draft: false
-description: ""
-tags: []
+description: "A quick web-based Nutanix storage sizing tool for fast estimates when full Sizer is overkill."
+tags: ["nutanix", "sizing", "calculator"]
 cover:
   image: ""
   alt: ""
   relative: true
 ---
 
-## Problem Statement
-If you've ever planned a Nutanix deployment, or studied for a Nutanix cert, you're probalby familiar [Nutanix Sizer](sizer.nutanix.com). Sizer is an important piece of the Nutanix ecosystem. It is the most detailed, accurate and precise way to plan your next Nutanix deployment. That said, some situations don't call for details, accuracy or precision. Sometimes you need a spreadsheet and other times you just need a napkin. Sizer has a tool called Storage Capacity Calculator which almost fits the bill, but doesn't quite do everything I want it to.
+## Problem
 
-## The Spreadsheet
+When planning Nutanix deployments, the official Sizer (sizer.nutanix.com) is the most accurate tool. However, many situations only need a quick napkin-level estimate rather than full precision.
 
-Ironic give my use of a spreadsheet/napkin analogy in the first paragraph: but my first solution to speed up sizing estimates was to create a "Quick Sizer" spreadsheet. This worked great for me, but didn't scale for the rest of the team. 
+Nutanix Sizer includes a Storage Capacity Calculator, but it didn't cover exactly what was needed for rapid scenarios.
 
-## Nutanix Storage Calculator  
+## The Solution
 
-One of my goals this year, in response to AI drastically lowering the bar, is to solve more pain points with software. As such, I converted my spreadsheet into a simple web app that allows you to quickly run through various Nutanix storage sizing scenarios and see the exact level of detail that *I* wanted.
+I built a simple web-based **Nutanix Storage Calculator** that delivers fast, practical storage sizing estimates for Nutanix HCI.
 
-This calculator is based on *my* understanding of Nutanix HCI and while it has a lot of details built-in, it may not be perfect. Always double check any scenario in the full Sizer before ordering!
+It lets you quickly test various scenarios with the level of detail useful for initial planning or team discussions.
 
-Check it out: [Nutanix Storage Calculator](https://expedient.github.io/nutanix-storage-calculator/)
+**Try it here:** [Nutanix Storage Calculator](https://expedient.github.io/nutanix-storage-calculator/)
 
-Please give it a try and let me know what you think!
+**Note:** This is based on practical experience and is not official. Always validate final designs in the full Nutanix Sizer before ordering hardware.
+
+The calculator is part of ongoing efforts to simplify common Nutanix planning tasks.
