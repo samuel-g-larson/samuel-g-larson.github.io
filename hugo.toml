@@ -28,7 +28,7 @@ buildExpired = false
   hidemeta = false
   hideSummary = false
 
-  homeBanner = "img/banner.jpg"
+  # homeBanner = "img/banner.jpg"  # Uncomment and add static/img/banner.jpg to enable
 
   [params.profileMode]
     enabled = true

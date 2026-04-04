@@ -2,40 +2,36 @@
 
 .home-banner {
   width: 100vw;
-  height: 260px;
+  height: 240px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   background-size: cover;
   background-position: center;
-  /* Pull up to sit flush under the nav with no gap */
   margin-top: -1px;
-  /* Pull the profile card up to overlap the bottom of the banner */
-  margin-bottom: -80px;
+  margin-bottom: 1.5rem;
+  /* If no image loads, collapse to nothing so there's no empty block */
+  background-color: transparent;
+}
+
+/* Only show the overlay when a background image is actually present */
+.home-banner:has(> .home-banner-overlay) {
+  background-color: var(--theme);
 }
 
 .home-banner-overlay {
   position: absolute;
   inset: 0;
-  /* Fade the banner into the page background so the profile card
-     appears to emerge from it rather than sit below a hard edge */
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    transparent 45%,
+    transparent 50%,
     var(--theme) 100%
   );
 }
 
-/* Ensure the profile card sits above the overlay */
-.profile {
-  position: relative;
-  z-index: 1;
-}
-
 /* ─── Post Cover Images ────────────────────────────────────────────────────── */
 
-/* Give cover images a consistent max-height and nice rounding */
 .post-cover img {
   border-radius: 8px;
 }
