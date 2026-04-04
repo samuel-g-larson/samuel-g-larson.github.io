@@ -28,9 +28,16 @@ buildExpired = false
   hidemeta = false
   hideSummary = false
 
-  [params.homeInfoParams]
-    Title = "Sam's Tech Notes"
-    Content = "Technical thought leadership — long-form explainers, opinions, and the occasional product deep-dive."
+  homeBanner = "img/banner.jpg"
+
+  [params.profileMode]
+    enabled = true
+    title = "Sam Larson"
+    subtitle = "Principal Technologist · Explainers, opinions, and product notes on HCI, cloud, and modern infrastructure."
+    imageUrl = "img/profile.jpg"
+    imageTitle = "Sam Larson"
+    imageWidth = 120
+    imageHeight = 120
 
   [[params.socialIcons]]
     name = "github"
